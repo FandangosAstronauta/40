@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/game.js"></script>
+<!--Link game.js e player.js-->
+   
+
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"> </script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+<!--Adicione configuração do banco de dados abaixo-->
+<script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBtnYjTuYZNnianxSkKBW-q45S31O6s6Hg",
+  authDomain: "jogo-do-carro-29e27.firebaseapp.com",
+  databaseURL: "https://jogo-do-carro-29e27-default-rtdb.firebaseio.com",
+  projectId: "jogo-do-carro-29e27",
+  storageBucket: "jogo-do-carro-29e27.appspot.com",
+  messagingSenderId: "653665108300",
+  appId: "1:653665108300:web:e4b1f645fca5c839aa0fe9"
+};
+firebase.initializeApp(firebaseConfig);
+</script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
